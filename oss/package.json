@@ -1,0 +1,20 @@
+{
+  "name": "@ideawell/oss",
+  "version": "0.0.1",
+  "description": "阿里云OSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.16.0"
+  },
+  "devDependencies": {
+    "@ideawell/api": "0.0.1",
+    "esm": "^3.2.25",
+    "mocha": "^8.4.0"
+  }
+}

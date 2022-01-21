@@ -1,0 +1,19 @@
+{
+  "name": "@ideawell/store",
+  "version": "0.0.1",
+  "description": "客户端存储",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r esm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-cookie": "^2.2.1",
+    "node-localstorage": "^2.1.6"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^8.0.1"
+  }
+}

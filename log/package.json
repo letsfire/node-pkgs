@@ -1,0 +1,18 @@
+{
+  "name": "@ideawell/log",
+  "version": "0.0.1",
+  "description": "阿里云日志上报",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r esm"
+  },
+  "author": "249008728@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "js-sls-logger": "^2.0.0-beta.2"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^8.0.1"
+  }
+}
